@@ -1,0 +1,160 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero-section {
+    background: #e0e0e0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin: 0;
+    color: #000;
+}
+
+header a {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+nav {
+    background: #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background: #333;
+    color: #fff;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+}
+
+.section-bg {
+    background-color: #212121;
+}
+
+.section-bg-alt {
+    background-color: #333;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* About Me Section */
+#about .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#about p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Cards */
+.card {
+    background: #424242;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+/* Footer Styles */
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

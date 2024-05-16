@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Kamishetty's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero-section">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-6xl font-bold text-black">Rahul Kamishetty</h1>
+            <a href="#about" id="learn-more-btn" class="mt-6 inline-block bg-black text-white px-8 py-3 rounded-full shadow-lg hover:bg-gray-800">Learn More</a>
+        </div>
+    </header>
+
+    <div id="main-content" class="hidden">
+        <nav class="bg-black shadow-md sticky top-0 z-50">
+            <div class="container mx-auto px-4">
+                <ul class="flex justify-center space-x-8 py-4">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="about" class="section-bg py-16">
+            <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+                <img src="DSC_1257  copy (2).jpg" alt="Rahul Kamishetty" class="profile-pic md:mr-8 mb-4 md:mb-0">
+                <div class="text-center md:text-left">
+                    <h2 class="text-4xl font-bold">About Me</h2>
+                    <p class="mt-4 text-lg">Hi there! I'm Rahul Kamishetty, a dedicated and passionate student with a Master's degree in Information Science from George Mason University. With a strong foundation in computer science and a keen interest in emerging technologies, I thrive on developing innovative solutions that drive organizational success.</p>
+                    <p class="mt-4 text-lg">Throughout my academic journey and internship experiences, I have honed my skills in a variety of programming languages, frameworks, and development tools. I have a proven track record in business analytics, where I leveraged NLP technology to automate research procedures, significantly improving operational efficiency.</p>
+                    <p class="mt-4 text-lg">I'm always eager to tackle challenging projects and continuously expand my knowledge. Whether it's diving deep into data analysis, crafting efficient algorithms, or exploring the latest advancements in machine learning and IoT, I am committed to making a positive impact through technology.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-bg-alt py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center">Skills</h2>
+                <ul class="mt-8 text-lg">
+                    <li><strong>Languages:</strong> Python, C, C++, HTML, CSS, Java, JavaScript, TypeScript, PHP, Ruby, Swift, Kotlin</li>
+                    <li><strong>Databases:</strong> SQL / MySQL, MongoDB, Oracle, PostgreSQL, SQLite</li>
+                    <li><strong>Developer Tools:</strong> Git, Docker, Visual Studio Code, Linux, PyCharm, Windows, Next.js, Unix, VMware</li>
+                    <li><strong>Frameworks & Libraries:</strong> Angular, Django, Symfony, Ember.js, Spring Boot</li>
+                    <li><strong>Concepts & Methodologies:</strong> Object-Oriented Programming, Test-Driven Development, Software Development Life Cycle, Domain-Driven Design, Software Design Patterns, Common Query Responsibility Segregation, Performance Optimization, Micro Frontends, DevOps, Machine Learning Operations, Serverless Computing</li>
+                    <li><strong>Certifications:</strong> User Centric Computing for Human Interaction (NPTEL), Data Science for Engineers (NPTEL), AWS Certified Solutions Architect SAA-C03</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education" class="section-bg py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center">Education</h2>
+                <div class="card mt-8 bg-gray-100 p-8 rounded-lg shadow mb-8">
+                    <h3 class="text-2xl font-semibold">George Mason University, Fairfax, VA</h3>
+                    <p class="mt-4 text-lg">Master’s in Information Science/Studies (GPA: 3.4/4) - Aug 2022 - May 2024</p>
+                    <p class="mt-2 text-lg"><strong>Coursework:</strong> Computer Systems and System Programming, Data Mining, Analysis of Algorithms, Database Systems, Discrete Mathematics, Rapid Information Systems Prototyping, Information Security Theory and Practice, Information System Analysis and Design, Analytics Big Data to Information, Communication Networks</p>
+                </div>
+                <div class="card bg-gray-100 p-8 rounded-lg shadow">
+                    <h3 class="text-2xl font-semibold">Gokaraju Rangaraju Institute of Engineering & Technology, Hyderabad, India</h3>
+                    <p class="mt-4 text-lg">Bachelor of Technology in Computer Science and Engineering (GPA: 7.83/10) - Jun 2018 - May 2022</p>
+                    <p class="mt-2 text-lg"><strong>Coursework:</strong> Data Structures & Algorithms, Statistics & Probability, Cyber Security, Big Data Analytics, Operating System, Compilers, Machine Learning, Cloud Computing, Image and Video Processing</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section-bg-alt py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center">Experience</h2>
+                <div class="card mt-8 bg-gray-100 p-8 rounded-lg shadow">
+                    <h3 class="text-2xl font-semibold">Business Analytics Intern at Verzeo</h3>
+                    <p class="mt-4 text-lg">March 2021 - April 2021</p>
+                    <ul class="mt-2 text-lg list-disc list-inside">
+                        <li>Facilitated a resume screening campaign using NLP technology to automate research procedures.</li>
+                        <li>Implemented machine-controlled scanning, categorization, and keyword extraction of resumes for recruitment processes.</li>
+                        <li>Improved efficiency by automating the screening procedure, minimizing manpower needs, and reserving resources.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-bg py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center">Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                    <div class="card bg-white p-8 rounded-lg shadow">
+                        <img src="project1.jpg" alt="Automated Temperature Sensing" class="rounded-lg mb-4">
+                        <h3 class="text-2xl font-semibold">Automated Temperature Sensing</h3>
+                        <p class="mt-2 text-lg">Developed an IoT and Arduino-based system to measure temperature for Covid-19 compliance checks in crowded areas like malls and theaters.</p>
+                    </div>
+                    <div class="card bg-white p-8 rounded-lg shadow">
+                        <img src="project2.jpg" alt="Brain Tumor Detection from MRI Images" class="rounded-lg mb-4">
+                        <h3 class="text-2xl font-semibold">Brain Tumor Detection from MRI Images</h3>
+                        <p class="mt-2 text-lg">Created a technique to speed up tumor identification using advanced image processing algorithms, ensuring accurate tumor segmentation and detection.</p>
+                    </div>
+                    <div class="card bg-white p-8 rounded-lg shadow">
+                        <img src="project3.jpg" alt="Drowsiness Detection Using IoT and Facial Detection" class="rounded-lg mb-4">
+                        <h3 class="text-2xl font-semibold">Drowsiness Detection Using IoT and Facial Detection</h3>
+                        <p class="mt-2 text-lg">Developed a Python-based solution using computer vision to detect driver drowsiness, ensuring prompt detection of fatigue signs and enhancing driver awareness.</p>
+                    </div>
+                    <div class="card bg-white p-8 rounded-lg shadow">
+                        <img src="project4.jpg" alt="Data Driven Analysis of Crime Patterns" class="rounded-lg mb-4">
+                        <h3 class="text-2xl font-semibold">Data Driven Analysis of Crime Patterns</h3>
+                        <p class="mt-2 text-lg">Utilized R programming for data cleaning, filtering, and statistical analysis to investigate crime patterns and offer insights for law enforcement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-bg-alt py-16">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold">Contact</h2>
+                <p class="mt-4 text-lg">Feel free to reach out to me via email or phone:</p>
+                <p class="mt-4 text-lg"><strong>Email:</strong> <a href="mailto:rahulkamishetty02@gmail.com" class="text-indigo-400 hover:underline">rahulkamishetty02@gmail.com</a></p>
+                <p class="mt-4 text-lg"><strong>Phone:</strong> <a href="tel:+15716228647" class="text-indigo-400 hover:underline">+1 5716228647</a></p>
+            </div>
+        </section>
+
+        <footer class="bg-black text-white py-8">
+            <div class="container mx-auto text-center">
+                <p>&copy; 2024 Rahul Kamishetty. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('learn-more-btn').addEventListener('click', function() {
+            document.querySelector('.hero-section').style.display = 'none';
+            document.getElementById('main-content').classList.remove('hidden');
+        });
+    </script>
+</body>
+</html>
